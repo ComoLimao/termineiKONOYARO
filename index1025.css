@@ -1,0 +1,122 @@
+html, body {
+    height: 100%; /*faz com que a página ocupe toda sua altura*/
+    background:url(img/background.jpeg)
+    }
+    
+    * {
+    margin: 0; /*as margens poderiam estragar tudo*/
+    }
+
+    #topo {
+        padding:0px;
+        width:100%;
+    }
+    
+    #conteudo {
+    height: 100%; /*empurra o rodapé para baixo */
+    width:90%;
+    left:2%;
+    position: relative;
+
+    }
+    
+    .rodape {
+      height: 100px; /*ajusta a altura do rodapé*/
+      margin-top: -50px;/*estes números devem ser opostos*/
+      background:#000;
+      position: absolute;
+      width: 100%;
+
+    }
+    #titulo {
+        color:#000;
+        font-family: verdana;
+        font-size: 24px;
+        top:0%;
+        left:2.5%;
+        position: relative;
+    }
+    #fudo{
+        background:#fff;
+        width:211px;
+        height: 35px;
+        top:5%;
+        left:4%;
+        position: relative;
+        border:solid #a6a6a6 3px;
+    }
+    p {
+        color:#000;;
+        font-family:Verdana;
+        font-size: 16px;
+        left: 0.5%;
+        top:0.5%;
+        position: relative;
+    }
+    .fundo{
+        background:#fff;
+        width:900px;
+        height: 155px;
+        left:4%;
+        position: relative;
+        top:8%;
+        border:solid #a6a6a6 3px;
+    }
+    iframe {
+        width:100%;
+        height:190px;
+            }
+    #numero {
+        color:#fff;
+        top:30%;
+        left:42%;
+        position: absolute;
+    }
+    #gmail {
+        color:#fff;
+        top:50%;
+        left:42.5%;
+        position: absolute;
+
+    }
+    #barb{
+        top:43%;
+        left:5.5%;
+        position: absolute;
+    }
+    .barbe {
+        width:910px;
+        height: 478px;
+    }
+/*MENU*/
+.minu {
+    height:66px;
+    width: 53%;
+    top:0%;
+    left:47%;
+    position:fixed;
+    background:#e6e6e6;
+    border-radius: 10px;
+}
+#sobre, #servicos {
+    color:#262626;
+    font-family:verdana;
+    font-size:24px;
+    top:25%;
+    position: absolute;
+    text-decoration: none;
+    ;
+}
+#servicos {
+    left:150px;
+}
+#sobre {
+    left:50px;
+}
+.lu{
+    display: block;
+    opacity: 0;
+    top:50%;
+}
+  
+  

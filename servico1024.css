@@ -1,0 +1,266 @@
+html, body {
+height: 100%; /*faz com que a página ocupe toda sua altura*/
+background:url(img/background.jpeg)
+}
+
+* {
+margin: 0; /*as margens poderiam estragar tudo*/
+}
+
+#topo {
+padding:0px;
+width:100%;
+}
+
+#conteudo {
+height: 100%; /*empurra o rodapé para baixo */
+width:90%;
+left:2%;
+position: relative;
+
+}
+
+.rodape {
+height: 100px; /*ajusta a altura do rodapé*/
+margin-top: -50px;/*estes números devem ser opostos*/
+background:#000;
+position: absolute;
+width: 100%;
+
+}
+#titulo {
+color:#000;;
+font-family: verdana;
+font-size: 24px;
+}
+#cax {
+background:#fff;]
+height:4000px;
+position: absolute;
+}
+p {
+color:#000;;
+font-family:Verdana, Tahoma, sans-serif;
+font-size: 16px;
+}
+#abertura {
+width: 100%;
+left:3%;
+top:10px;
+
+}
+}
+iframe {
+width:100%;
+height:190px;
+}
+.tel {
+height:40px;
+width: 40px;
+top:18%;
+left:37%;
+position: absolute;
+
+}
+.whats {
+height:40px;
+width:40px;
+top:18%;
+left:58%;
+position: absolute;
+}
+#numero {
+color:#fff;
+top:30%;
+left:42%;
+position: absolute;
+
+
+}
+#gmail {
+color:#fff;
+top:50%;
+left:42.5%;
+position: absolute;
+
+}
+#barb{
+top:48%;
+left:44.5%;
+position: absolute;
+}
+.barbe {
+width:490px;
+height: 273px;
+}
+/*MENU*/
+.minu {
+height:66px;
+width: 40%;
+top:0%;
+left:60%;
+position:fixed;
+background:#e6e6e6
+}
+#sobre, #servicos {
+color:#262626;
+font-family:verdana;
+font-size:24px;
+top:25%;
+position: absolute;
+text-decoration: none;
+;
+}
+#servicos {
+left:150px;
+}
+#sobre {
+left:50px;
+}
+.lu{
+display: block;
+opacity: 0;
+}
+.cadeira {
+height: 60px;
+width:60px;
+top:0px;
+left:94%;
+position: fixed;
+border-radius: 15px;
+}
+/* Slideshow container */
+.gallery-container {
+width: 90%;
+position: relative;
+margin: 0 5%;
+background: #333;
+padding: 2px;
+top:50%;
+}
+@media (min-width: 480px) {
+.gallery-container {
+width: 500px;
+margin: auto;
+height:330px;
+}
+}
+
+/* Hide the images by default */
+.mySlides {
+display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+cursor: pointer;
+position: absolute;
+top: 50%;
+width: auto;
+margin-top: -22px;
+padding: 16px;
+color: white;
+font-weight: bold;
+font-size: 18px;
+transition: 0.6s ease;
+border-radius: 0 3px 3px 0;
+background-color: rgba(0,0,0,0.1);
+}
+
+/* Position the "next button" to the right */
+.next {
+right: 0;
+border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+background-color: rgba(0,0,0,0.8);
+}
+
+
+.imgslide {
+width: 100%;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+color: #f2f2f2;
+font-size: 12px;
+padding: 8px 12px;
+position: absolute;
+top: 0;
+}
+@media (max-width: 768px) {
+.numbertext {
+top: 15px;
+}
+}
+
+/* Fading animation */
+.fade {
+-webkit-animation-name: fade;
+-webkit-animation-duration: 1.5s;
+animation-name: fade;
+animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+from {opacity: .4}
+to {opacity: 1}
+}
+
+@keyframes fade {
+from {opacity: .4}
+to {opacity: 1}
+}
+/*Serviços*/
+
+.ic {
+width:150px;
+height: 150px;
+}
+.cabelo{
+top:10%;
+left:10%;
+position: absolute;
+}
+.barba{
+top:10%;
+left:35%;
+position: absolute;
+}
+.hidratacao{
+top:10%;
+left:60%;
+position: absolute;
+}
+.selagem{
+top:10%;
+left:85%;
+position: absolute;
+}
+/*h1*/
+.galeria{
+color:red;
+font-family: verdana;
+font-size: 32px;
+top:45%;
+left:43%;
+position: absolute;
+}
+.nossos{
+color:red;
+font-family: verdana;
+font-size: 32px;
+top:4%;
+left:10%;
+position: absolute;
+width: 300px;
+}
+/**/
+.tex{
+background:#bfbfbf;
+position: relative;
+width:150px;
+}
